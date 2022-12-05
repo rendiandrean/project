@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+    <body>
+      <header>
+        <div class="jumbotron">
+          <h1>HELLO :)</h1>
+          <h2>WELCOME TO MY WEBSITE</h2>
+        </div>
+        <nav>
+          <ul>  
+            <li><a href="#about me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header> 
+      <main>
+        <div id="content">
+          <article id="about me" class="card">
+            <h2>About Me</h2>
+            <div class="separator" style="margin-bottom:2px; clear: both; text-align: center;">
+              <img border="0" height="auto" src="assets/image/Picture1.jpg" width="25%" /></div>
+              <div style="margin-bottom:2px; text-align: center;">
+              <b><span style="font-size: large;">Rendi Andrean</span></b></div>
+              <div style="margin-bottom:3px; text-align: center;">
+              <p>Hi, I am Rendi Andrean I am A self-motivated IT professional with huge knowledge and proficiency in JavaScript, HTML , CSS, and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code. To contact me, You can click on the contact tab above (How to contact Rendi Andrean)..&nbsp;</p>
+              <div style="text-align: right;"></div>
+              </div>
+              <div style="margin-bottom:5px; border-bottom: 2px solid #ff9900; padding: 3px; text-align: center;">
+              </div>
+          </article>
+
+          <article id="skills" class="card">
+            <h2>Skills</h2>
+            <div style="margin-bottom:5px; border-bottom: 2px solid #ff9900; padding: 3px; text-align: center;">
+            </div>
+              <p>HTML</p>
+              <div class="container">
+                <div class="skills html">50%</div>
+              </div>
+
+              <p>CSS</p>
+              <div class="container">
+                <div class="skills css">30%</div>
+              </div>
+
+              <p>JAVASCRIPT</p>
+              <div class="container">
+                <div class="skills js">25%</div>
+              </div>
+
+              <p>MIKROTIK ROUTE AND CISCO</p>
+              <div class="container">
+                <div class="skills mikrotik">45%</div>
+              </div>
+
+              <p>HARDWARE COMPONENT</p>
+              <div class="container">
+                <div class="skills hardware">75%</div>
+              </div>
+          </article>
+
+          <article id="portfolio" class="card">
+            <h2>Portfolio</h2>
+            <div style="margin-bottom:5px; border-bottom: 2px solid #ff9900; padding: 3px; text-align: center;">
+            </div>
+            <section class="portfolio" id="portfolio">
+              <div class="container">
+               <div class="row">
+                <div class="col-sm-12 text-center">
+                </div>
+    
+                <div class="col-sm-4 text-center">
+                 <a href="" class="thumbnail">
+                  <img src="assets/image/IMG_20170730_151104.jpg"><img src="assets/image/IMG_20170730_151127.jpg"><img src="assets/image/IMG_20170730_151231.jpg">
+                 </a>
+                </div>
+         
+                <div class="col-sm-4 text-center">
+                 <a href="" class="thumbnail">
+                  <img src="assets/image/IMG_20190622_123129.jpg"><img src="assets/image/smk3perguruancikini-20190326-0001.jpg"><img src="assets/image/smk3perguruancikini-20190326-0002.jpg">
+                 </a>
+                </div>
+         
+                <div class="col-sm-4 text-center">
+                 <a href="" class="thumbnail">
+                  <img src="assets/image/smk3perguruancikini-20190326-0003.jpg"><img src="assets/image/smk3perguruancikini-20190326-0004.jpg"><img src="assets/image/percik1.jpg">
+                 </a>
+                </div>
+         
+                <div class="col-sm-4 text-center">
+                 <a href="" class="thumbnail">
+                  <img src="assets/image/percik2.jpeg"><img src="assets/image/percik3.jpeg"><img src="assets/image/percik4.jpg">
+                 </a>
+                </div>       
+              </div>
+             </section>
+          </article>
+
+          <article id="contact" class="card">
+            <h2>Contact</h2>
+            <div style="margin-bottom:5px; border-bottom: 2px solid #ff9900; padding: 3px; text-align: center;">
+            </div>
+            <div class="container">
+              <div style="text-align:center">
+                <h2>Contact Me</h2>
+              </div>
+              <div class="row">
+                <div class="column">
+                </div>
+                <div class="column">
+                  <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="english">English</option>
+                      <option value="indonesia">Indonesia</option>
+                      <option value="japan">Japan</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <button onclick="confirmation()">Submit</button>
+                    <p id="message"></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside>
+          <article class="profile card">
+            <header>
+              <h2>Personal Information</h2>
+              <figure>
+                <img src="assets/image/DSC_6859 copy.jpg">
+              </figure>
+            </header>
+            <section>
+              <table>
+                <tr>
+                    <td class="text">Full Name</td>
+                      <td>:</td>
+                      <td>Rendi Andrean</td>
+                </tr>
+                <tr>
+                    <td class="text">Nickname</td>
+                      <td>:</td>
+                      <td>Rendi</td>
+                </tr>
+                <tr>
+                    <td class="text">Gender</td>
+                      <td>:</td>
+                      <td>Male</td>
+                </tr>
+                <tr>
+                    <td class="text">Place, Date of Birth</td>
+                      <td>:</td>
+                      <td>Depok, March 15<small>th</small> 2001</td>
+                </tr>
+                <tr>
+                    <td class="text">Age</td>
+                      <td>:</td>
+                      <td>19 years old</td>
+                </tr>
+                <tr>
+                    <td class="text">Nationality</td>
+                      <td>:</td>
+                      <td>Indonesia</td>
+                </tr>
+                <tr>
+                    <td class="text">Religion</td>
+                      <td>:</td>
+                      <td>Muslim</td>
+                </tr>
+                <tr>
+                    <td class="text">Address</td>
+                      <td>:</td>
+                      <td>Jalan Otista Raya 56.b, East Jakarta</td>
+                </tr>
+              </table>
+            </section>
+          </article>
+        </aside>  
+      </main>
+          <footer>
+                <p>Design Website By: RendiAndrean &#169;2020</p>
+          </footer>
+
+    <script>
+      function confirmation(){
+         var ask = confirm("Are you sure ?");
+ 
+         if(ask === true) {
+            message = "Sucess";
+         }else{
+            message = "Cancel";
+         }
+ 
+         document.getElementById("message").innerHTML = message;
+      }
+    </script>
+    <script src="assets/welcome.js"></script>
+  </body>
+</html>
